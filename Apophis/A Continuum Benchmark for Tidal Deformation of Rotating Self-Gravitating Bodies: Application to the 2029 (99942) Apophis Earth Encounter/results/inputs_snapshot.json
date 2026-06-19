@@ -1,0 +1,60 @@
+{
+  "asteroid": {
+    "density_kg_m3": 3200.0,
+    "diameter_m": 340.0,
+    "lame_lambda_pa": 4000000.0,
+    "poisson_ratio": 0.25,
+    "radius_m": 170.0,
+    "rotation_axis": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "rotation_period_s": 109872.0,
+    "shear_modulus_pa": 4000000.0,
+    "spin_rate_rad_s": 5.718641061580372e-05,
+    "young_modulus_pa": 10000000.0
+  },
+  "benchmark_id": "tidal_deformation_reference_v1",
+  "constants": {
+    "earth_gravitational_parameter_m3_s2": 398602544600000.0,
+    "earth_mass_kg": 5.9722e+24,
+    "earth_mean_density_kg_m3": 5513.443375519388,
+    "earth_mean_radius_m": 6371000.0,
+    "gravitational_constant_m3_kg_s2": 6.6743e-11
+  },
+  "encounter": {
+    "asymptotic_speed_m_s": 5954.7444,
+    "periapsis_earth_radii": 5.96
+  },
+  "modal_forcing_projection_factor": 1.0,
+  "numerics": {
+    "csv_float_format": "%.15e",
+    "figure_dpi": 240,
+    "modal_convergence_relative_tolerance": 0.0002,
+    "modal_max_periapsis_radii": 50.0,
+    "modal_points": 120001,
+    "periapsis_half_window_h": 1.5,
+    "periapsis_points": 40001,
+    "trajectory_max_periapsis_radii": 8.0,
+    "trajectory_points": 60001,
+    "validation_relative_tolerance": 2e-10
+  },
+  "sweeps": {
+    "modulus_max_pa": 1000000000.0,
+    "modulus_min_pa": 1000.0,
+    "modulus_points": 121,
+    "periapsis_max_earth_radii": 15.0,
+    "periapsis_min_earth_radii": 1.5,
+    "periapsis_points": 100,
+    "reduced_stiffness_factors": [
+      1.0,
+      0.1,
+      0.01,
+      0.001
+    ],
+    "speed_max_m_s": 20000.0,
+    "speed_min_m_s": 2000.0,
+    "speed_points": 100
+  }
+}

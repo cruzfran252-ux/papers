@@ -1,0 +1,43 @@
+{
+  "benchmark_id": "tidal_deformation_reference_v1",
+  "dimensionless": {
+    "chi": 0.0009514531212998473,
+    "coriolis_assembled_coefficient": 5.232438638733832e-07,
+    "coriolis_group": 2.616219319366916e-07,
+    "eta": 1.6833185219942694e-07,
+    "euler_group": 1.5542033698217823,
+    "lambda": 0.4491663410039743,
+    "xi": 6.205165879326627e-05,
+    "zeta": 6217.945403312183
+  },
+  "encounter": {
+    "asymptotic_speed_m_s": 5954.7444,
+    "eccentricity": 4.377847568377816,
+    "encounter_time_s": 5053.6658132978,
+    "periapsis_earth_radii": 5.96,
+    "periapsis_m": 37971160.0,
+    "periapsis_speed_m_s": 7513.587443808773
+  },
+  "geometry": {
+    "diameter_m": 340.0,
+    "radius_definition": "diameter_m / 2",
+    "radius_m": 170.0
+  },
+  "quadrupole": {
+    "forcing_projection_factor": 1.0,
+    "omega_elastic_rad_s": 1.2303823919618757,
+    "omega_rotation_rad_s": 3.946237242837613e-05,
+    "omega_self_gravity_rad_s": 0.0013901095637028965,
+    "omega_total_rad_s": 1.230383177880657,
+    "peak_dynamic_displacement_m": 8.176171003423148e-07,
+    "peak_dynamic_displacement_over_Uc": 0.02857161192081962,
+    "peak_dynamic_displacement_over_radius": 4.809512354954793e-09,
+    "peak_modal_energy_j": 0.003998686014674257,
+    "peak_quasi_static_displacement_m": 8.176108090259454e-07,
+    "period_s": 5.106689867137499
+  },
+  "validation": {
+    "failed_checks": [],
+    "passed": true
+  }
+}

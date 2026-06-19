@@ -1,0 +1,307 @@
+{
+  "title": "A Continuum Benchmark for Tidal Deformation of Rotating Self-Gravitating Bodies: Application to the 2029 (99942) Apophis Earth Encounter",
+  "generated_at_utc": "2026-06-19T09:42:24.097560+00:00",
+  "file_count": 60,
+  "files": [
+    {
+      "path": "animations/animation_01_body_frame_direction.gif",
+      "bytes": 1469557,
+      "sha256": "910f4142b6ce7c402652f1fdc5a6d718e79121185a11540a5cc9a80e430e0e8c"
+    },
+    {
+      "path": "animations/animation_02_quadrupole_forcing_response.gif",
+      "bytes": 4039623,
+      "sha256": "acfdb15aad93967d26a414cd5cae6230b531c49a550a573810a18709a29dd22b"
+    },
+    {
+      "path": "animations/animation_03_tidal_tensor_principal_axes.gif",
+      "bytes": 1980231,
+      "sha256": "91ab5e1afb694f84cf88961083b6e4cdd43e35077783a77b182103f85dc61e9f"
+    },
+    {
+      "path": "animations/animation_04_apophis_flyby_trajectory.gif",
+      "bytes": 1332459,
+      "sha256": "cdee7ede9329687e417316a67d17094708854d6851cca0eb6cc786f66aace509"
+    },
+    {
+      "path": "animations/animation_05_body_frame_tidal_field.gif",
+      "bytes": 11089087,
+      "sha256": "23f6a807cb3ec758368856660f50fd12dc12786f1dd48522d076ebd3a2fdb499"
+    },
+    {
+      "path": "animations/animation_06_amplified_quadrupole_surface.gif",
+      "bytes": 5555139,
+      "sha256": "29478202864d6653ff1f7e2311b1692a676c2be1afaf767645ccee7eeebc77df"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 771,
+      "sha256": "8c506723c7f4240c2dc4075a36dc4eb3ab4cb0a4ea87a8f2a92bba9fafff5f35"
+    },
+    {
+      "path": "data/encounter_regime_map.csv",
+      "bytes": 670049,
+      "sha256": "88fafdf25f4db2c473b43e6b1265390ff690a0b24c5a6274284b9fa88c46e978"
+    },
+    {
+      "path": "data/modal_response_full.csv",
+      "bytes": 47880567,
+      "sha256": "d5191b5776d07a6e4c1ed44dd106d7a3014308bd4210331ac1836ce79aa7e2d9"
+    },
+    {
+      "path": "data/modal_response_periapsis.csv",
+      "bytes": 15080671,
+      "sha256": "340be53bff6c5b6f2019251400b1575d7e40eff8410f3499a0cb9fae8562136d"
+    },
+    {
+      "path": "data/nondimensional_coefficients_full.csv",
+      "bytes": 15990466,
+      "sha256": "31f4af1bc36fa9b6e9176c2b131c5035ea509c4502d3777bd4247f686e018e03"
+    },
+    {
+      "path": "data/nondimensional_coefficients_periapsis.csv",
+      "bytes": 10660466,
+      "sha256": "9f272fa63caad92d5ee039d0c400bd8de9af90619a9f3e12463e94947f81936a"
+    },
+    {
+      "path": "data/stiffness_periapsis_regime_map.csv",
+      "bytes": 810745,
+      "sha256": "1281bbf41a8e3f5ddbc3344ce016e0eecaff3de9b78d86ab6f68c1a88c77fdee"
+    },
+    {
+      "path": "data/stiffness_sweep.csv",
+      "bytes": 24230,
+      "sha256": "e426d47c8d957c1b3cc78d2e1d06bd8959c98666e8518c29c682d6d344766139"
+    },
+    {
+      "path": "data/trajectory_full.csv",
+      "bytes": 25691720,
+      "sha256": "3c135c9be10ff63a2a04aa640429111ecab5eb34f4915a7ee80319e68911da24"
+    },
+    {
+      "path": "data/trajectory_periapsis.csv",
+      "bytes": 17126446,
+      "sha256": "d45713b642fc70a7c89b6b4866b9573c44430ecc70682ef3077034049a010ee0"
+    },
+    {
+      "path": "docs/data_inventory.md",
+      "bytes": 1148,
+      "sha256": "e2c388d2ff56228124929b63e12b9f1e101688edc24a9d0d4a16fc6dcb450fbe"
+    },
+    {
+      "path": "docs/figure_index.md",
+      "bytes": 6126,
+      "sha256": "21579cd1d3b47e9f984731b76c0203df7a60185c26bd620cf14239626b6180fd"
+    },
+    {
+      "path": "docs/release_notes.md",
+      "bytes": 366,
+      "sha256": "b9ccd5c1f848ebb9c12e4c470733cfbba8fcefc0188a0c4d411758eb40f53107"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 142,
+      "sha256": "72e05c7060a43739533cb4c6e94d13f9ae10b6f021934212908ab5fdc1b4612a"
+    },
+    {
+      "path": "figures/extended/figure_E1_tidal_quadrupole_field_2d.png",
+      "bytes": 1884965,
+      "sha256": "a43f61e6b4521b69ebcc9cbc678fd6e3073f413b63246fcd2b27c92d9e0bf81d"
+    },
+    {
+      "path": "figures/extended/figure_E2_zeta_regime_map.png",
+      "bytes": 449500,
+      "sha256": "3b0203f2a16a7a7be91d5740aa530be3d6e2dbe15aca5ebb9436ba500ceedd76"
+    },
+    {
+      "path": "figures/extended/figure_E3_max_quadrupole_amplitude_map.png",
+      "bytes": 116004,
+      "sha256": "4d8c355f668d69a1e7136ed86ce1bbec8e95f6eaa50a39e944e17345a7fd08e2"
+    },
+    {
+      "path": "figures/extended/figure_E4_coefficients_trajectory_extended.png",
+      "bytes": 1264724,
+      "sha256": "904cc481e83478623e8c732b67ad78d1d9c2ffe3a286e7c67d0b7861c5dc43c5"
+    },
+    {
+      "path": "figures/extended/figure_E5_quadrupole_mode_gallery.png",
+      "bytes": 508227,
+      "sha256": "260bcdafde5a729d8f2744ee519168c17d15f3f276e36a7cf358bb81bcebc6a1"
+    },
+    {
+      "path": "figures/extended/figure_E6_tidal_tensor_eigenstructure.png",
+      "bytes": 223674,
+      "sha256": "65098b93b12dcd01654ab8e3cf9abb5bad70361a244a96476bad1526154fb493"
+    },
+    {
+      "path": "figures/extended/figure_E7_response_scaling.png",
+      "bytes": 198469,
+      "sha256": "44646cabc29cd41a154e6337224772ba9ceadc8c6e9b8c440205744a8941b2a9"
+    },
+    {
+      "path": "figures/extended/figure_E8_body_frame_tidal_geometry.png",
+      "bytes": 249322,
+      "sha256": "8e6d1f306c7de494ae0c6533d7e11bd155667d75e5270884591c53bdc525111e"
+    },
+    {
+      "path": "figures/main/figure_01a_coefficient_evolution.png",
+      "bytes": 87939,
+      "sha256": "56027fa8ce350e99ede2970df1d79141978c9035dfe2728c1741fe123bc676af"
+    },
+    {
+      "path": "figures/main/figure_01b_nondimensional_hierarchy.png",
+      "bytes": 99430,
+      "sha256": "c922e268826458195a36fd1cbfed9136fee32bd254c0e3ff37c6a4cbaf501b1d"
+    },
+    {
+      "path": "figures/main/figure_02_periapsis_time_anomaly.png",
+      "bytes": 57204,
+      "sha256": "a869398d71e561362808151ebd49b8de21d7684961fb7a4c03e09a0feb7bea68"
+    },
+    {
+      "path": "figures/main/figure_03a_rotation_frame_components.png",
+      "bytes": 67100,
+      "sha256": "0b114deb3f716561388f5430511c3a1e857532acaf096354d41176d3bb1bc24e"
+    },
+    {
+      "path": "figures/main/figure_03b_tidal_tensor_components.png",
+      "bytes": 88677,
+      "sha256": "aa0b045b09bf30a1d3bd7c96708570e049e2a7cb6e54abf56c5b9b5bcb63e079"
+    },
+    {
+      "path": "figures/main/figure_04_modal_diagnostics_periapsis.png",
+      "bytes": 160919,
+      "sha256": "3199b5e3cf392c3425dc14579e070be36410fe204f3df7da8598145a7dc9918b"
+    },
+    {
+      "path": "figures/main/figure_05_modal_diagnostics_extended.png",
+      "bytes": 150236,
+      "sha256": "72ce7eee0802963acd7c6e597e00f357fba2fcf3a39e8106d8166bc62de76883"
+    },
+    {
+      "path": "figures/main/figure_06_regime_maps.png",
+      "bytes": 195631,
+      "sha256": "f11882e57d517a070c125d087d1bdaa688271166de2f38b62addcf68d544c6fe"
+    },
+    {
+      "path": "figures/supplementary/figure_S1_trajectory_frames.png",
+      "bytes": 51990,
+      "sha256": "e9c11ecb2a7bb8a25bbbb18cf6be39ae286138b6ce1e5d35eaa25a2f3e2f7deb"
+    },
+    {
+      "path": "figures/supplementary/figure_S2_body_frame_forcing_compact.png",
+      "bytes": 131441,
+      "sha256": "e557683a4cc7b0c9f73c9b51b008c1e3feacc800c012a043bbe31d2b15fcb2a1"
+    },
+    {
+      "path": "figures/supplementary/figure_S3_coefficient_bars.png",
+      "bytes": 86677,
+      "sha256": "d499b7a0948c762b11476ec84fd72020406e56074f7472db0e01055679bcd6ec"
+    },
+    {
+      "path": "figures/supplementary/figure_S4_encounter_regime_map.png",
+      "bytes": 116590,
+      "sha256": "eaf62bfbadf4d280cb206dd07993f984992d3da5d6de1a62ae9bb208692c849b"
+    },
+    {
+      "path": "figures/supplementary/figure_S5_stiffness_periapsis_regime_map.png",
+      "bytes": 145815,
+      "sha256": "bf9d9106ec2ca56095a1108552b57475c8274e28804ef8a644db30d9a0a30a97"
+    },
+    {
+      "path": "figures/supplementary/figure_S6_modal_diagnostics_compact.png",
+      "bytes": 299662,
+      "sha256": "75dbd009a786a495c0eb15b2f87a8bc873f0d6c2537ed6be757e908b13fa20bb"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 693,
+      "sha256": "8e834ed69a7a97a11032b05020b6b1ea1b21b1ced60a21a5e4d677d12b29f513"
+    },
+    {
+      "path": "notebooks/README.md",
+      "bytes": 144,
+      "sha256": "9d169be3975011b8d31055009030767fcddb39a20470b6e7f003b5ce18ca256e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14036,
+      "sha256": "0dedb6f42a2f90f4f1cc9dc84b60b14a026f793dbef16a48988174b5caefae8a"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 55,
+      "sha256": "e4cda5b9f0614b912fc312115d0994036b2ded078039a62a825bab87733ffa96"
+    },
+    {
+      "path": "results/image_verification.json",
+      "bytes": 1798,
+      "sha256": "7678bd348eca15a7433bc78f6553a54020947cbdfefc6afcfe9434b16b617fbc"
+    },
+    {
+      "path": "results/inputs_snapshot.json",
+      "bytes": 1649,
+      "sha256": "e9e89ef80868d53c8c5e353acd34900d394a9d55a8b0cfdb6c177b5b6e58e433"
+    },
+    {
+      "path": "results/manifest.json",
+      "bytes": 63336,
+      "sha256": "ef753a0747d28269d01aeb108629daf6c5468b149079ecedba503cce1e902718"
+    },
+    {
+      "path": "results/summary.json",
+      "bytes": 1457,
+      "sha256": "522c2244aa8dbde33f859a9c5b4a9cec9bace53c11109ee9ddaf83d7f66c9fb1"
+    },
+    {
+      "path": "results/tables/benchmark_tables.tex",
+      "bytes": 958,
+      "sha256": "6fd80af12c3dc49807ce29d4f84d98c48e0b2a8feee25a83fb8eca5a5a393f82"
+    },
+    {
+      "path": "results/tables/derived_quantities.csv",
+      "bytes": 1492,
+      "sha256": "2cea72b4b28b80e712c8ba319f433f9e2a1edd434ef002e8e2b67da6954b69e9"
+    },
+    {
+      "path": "results/tables/input_parameters.csv",
+      "bytes": 1500,
+      "sha256": "e1c5d066ff048005cdeefa22b9609c681c031a9c69342fce146554957c0aa920"
+    },
+    {
+      "path": "results/tables/parametric_cases.csv",
+      "bytes": 2143,
+      "sha256": "a167d30260373ded1b9dfe3e3bed1ad1a9d57f0e1754486838f21c3abbd79f94"
+    },
+    {
+      "path": "results/tables/stiffness_cases.csv",
+      "bytes": 1534,
+      "sha256": "ad641b78ed308605f63e80ebd20a1534fb00d62f6093b1898b8533cc4f863427"
+    },
+    {
+      "path": "results/tables/validation_checks.csv",
+      "bytes": 614,
+      "sha256": "4f96744b68357c162b054e48aa739ec5dbd645e31ba29748593fa208a4cf46eb"
+    },
+    {
+      "path": "scripts/inputs.py",
+      "bytes": 6024,
+      "sha256": "3784b08e3071a53d4657b75913fd61d0760754bfb07115745582c2c685b11956"
+    },
+    {
+      "path": "scripts/prepare_github_release.py",
+      "bytes": 54395,
+      "sha256": "33593ef257dbffca38c7b68318329f72e0068fa21b3b2291ae2211217e44234b"
+    },
+    {
+      "path": "scripts/reproduce_all.py",
+      "bytes": 6919,
+      "sha256": "d53343ee21ae38accd4f6d29f4ebd5f20445a46deb92ecbf2bab493e637f4531"
+    },
+    {
+      "path": "scripts/run_benchmark.py",
+      "bytes": 73809,
+      "sha256": "a5f690fab39cb5795dea30bbf642c8fa55a4224b66395d937808377c82c6cb67"
+    }
+  ]
+}

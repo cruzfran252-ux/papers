@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper."
+title: "A Continuum Benchmark for Tidal Deformation of Rotating Self-Gravitating Bodies: Application to the 2029 (99942) Apophis Earth Encounter"
+authors:
+  - family-names: "Cruz Perez"
+    given-names: "Francisco"
+  - family-names: "Herreros Cid"
+    given-names: "Isabel"
+  - family-names: "Veiga Lopez"
+    given-names: "Fernando"
+date-released: "2026-06-19"
+version: "0.1.0"
+doi: "TBD"
+url: "https://github.com/cruzfran252-ux/papers/tree/0ba7ea234b0d28a1c58c644ab1dc7460d5756a06/Apophis/A%20Continuum%20Benchmark%20for%20Tidal%20Deformation%20of%20Rotating%20Self-Gravitating%20Bodies%3A%20Application%20to%20the%202029%20(99942)%20Apophis%20Earth%20Encounter"
