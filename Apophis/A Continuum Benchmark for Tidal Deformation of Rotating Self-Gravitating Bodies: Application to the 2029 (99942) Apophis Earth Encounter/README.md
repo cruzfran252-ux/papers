@@ -1,33 +1,36 @@
-# Repository Title / Paper Title
+# A Continuum Benchmark for Tidal Deformation of Rotating Self-Gravitating Bodies: Application to the 2029 (99942) Apophis Earth Encounter
 
-**Additional figures, animations, data, and code associated with:**
-**“Full Paper Title”**
+Additional figures, animations, data, and code associated with:
 
-Authors: **Author 1**, **Author 2**, **Author 3**
-Affiliations: **Institution 1**, **Institution 2**
-Corresponding author: **[name@email.com](mailto:name@email.com)**
+**A Continuum Benchmark for Tidal Deformation of Rotating Self-Gravitating Bodies: Application to the 2029 (99942) Apophis Earth Encounter**
+
+Authors: **Francisco Cruz Perez, Isabel Herreros Cid, Fernando Veiga Lopez**
+
+Affiliations: **Universidad Carlos III de Madrid; Centro de Astrobiologia, CSIC-INTA; Universidad de Vigo**
+
+Corresponding author: **Francisco Cruz Perez** (`TBD`)
 
 ---
 
 ## Paper Information
 
-* **Title:** *Full Paper Title*
-* **Authors:** Author 1, Author 2, Author 3
-* **Journal / Conference:** Journal or Conference Name
-* **Status:** Under review / Accepted / Published
-* **DOI:** `TBD`
-* **Preprint:** `TBD`
-* **Publication date:** `TBD`
+- **Title:** *A Continuum Benchmark for Tidal Deformation of Rotating Self-Gravitating Bodies: Application to the 2029 (99942) Apophis Earth Encounter*
+- **Authors:** Francisco Cruz Perez, Isabel Herreros Cid, Fernando Veiga Lopez
+- **Status:** Manuscript version, June 2026
+- **DOI:** `TBD`
+- **Preprint:** `TBD`
+- **Publication date:** `TBD`
+- **Repository URL:** [https://github.com/cruzfran252-ux/papers/tree/0ba7ea234b0d28a1c58c644ab1dc7460d5756a06/Apophis/A%20Continuum%20Benchmark%20for%20Tidal%20Deformation%20of%20Rotating%20Self-Gravitating%20Bodies%3A%20Application%20to%20the%202029%20(99942)%20Apophis%20Earth%20Encounter](https://github.com/cruzfran252-ux/papers/tree/0ba7ea234b0d28a1c58c644ab1dc7460d5756a06/Apophis/A%20Continuum%20Benchmark%20for%20Tidal%20Deformation%20of%20Rotating%20Self-Gravitating%20Bodies%3A%20Application%20to%20the%202029%20(99942)%20Apophis%20Earth%20Encounter)
 
 Suggested citation:
 
 ```bibtex
-@article{AuthorYearPaper,
-  title   = {Full Paper Title},
-  author  = {Author, A. and Author, B. and Author, C.},
-  journal = {Journal Name},
-  year    = {YYYY},
-  doi     = {DOI}
+@article{CruzPerez2026TidalBenchmark,
+  title  = {A Continuum Benchmark for Tidal Deformation of Rotating Self-Gravitating Bodies: Application to the 2029 (99942) Apophis Earth Encounter},
+  author = {Cruz Perez, Francisco and Herreros Cid, Isabel and Veiga Lopez, Fernando},
+  year   = {2026},
+  note   = {Manuscript in preparation},
+  doi    = {TBD}
 }
 ```
 
@@ -35,28 +38,26 @@ Suggested citation:
 
 ## Overview
 
-This repository contains supplementary material associated with the paper:
+This repository contains supplementary material for a continuum benchmark of
+tidal deformation during the 2029 Earth encounter of (99942) Apophis. It
+collects the final manuscript figures, additional explanatory figures,
+animations, numerical outputs, and scripts used to generate the benchmark
+material.
 
-> *Full Paper Title*
+The purpose of this archive is to provide:
 
-The repository includes additional figures, animations, scripts, numerical results, notebooks, and supporting material that complement the results presented in the manuscript.
-
-The main purpose of this repository is to provide:
-
-* Additional visual material not included in the main manuscript.
-* Extended figures and animations supporting the interpretation of the results.
-* Scripts and notebooks used to generate selected figures.
-* Supplementary technical information to improve reproducibility.
-* A structured archive of paper-related material.
+- A clean figure set matching the manuscript.
+- Extended diagnostics for the quadrupolar mode, tidal tensor, and regime maps.
+- GIF animations for the body-frame forcing and modal response.
+- Numerical CSV outputs and tables for independent verification.
+- Current scripts, with a later consolidation pass planned for a single final workflow.
 
 ---
 
 ## Abstract
 
-Paste the paper abstract here.
-
 ```text
-Abstract text...
+Close planetary flybys provide natural loading experiments for weak small bodies, but comparisons between deformation models remain ambiguous without a common mathematical reference problem. The 2029 Earth encounter of (99942) Apophis, together with the observational context provided by RAMSES and OSIRIS-APEX, motivates a reproducible benchmark for tidal deformation during the 2029 close approach. This paper defines a continuum benchmark for a rotating, self-gravitating deformable body subjected to a prescribed external tidal field and then specializes it to the Apophis encounter. The general statement admits arbitrary body geometry, density distribution, rotation axis, constitutive closure, perturber, and prescribed relative-position history. The reference realization fixes small-strain isotropic elasticity, a traction-free homogeneous sphere, a hyperbolic trajectory, and the leading quadrupolar tide. Dimensional equations, nondimensional coefficients, ordered perturbations, body-frame forcing, a quadrupolar modal approximation, and reproducible numerical targets are reported together. The Apophis case illustrates a quasi-static elastic-tidal regime and a controlled set of stiffness and encounter variations for analytical, continuum, reduced-order, and granular implementations.
 ```
 
 ---
@@ -65,278 +66,181 @@ Abstract text...
 
 ```text
 .
-├── README.md
-├── figures/
-│   ├── main/
-│   ├── supplementary/
-│   └── extended/
-├── animations/
-├── scripts/
-├── notebooks/
-├── data/
-├── results/
-├── docs/
-├── environment.yml
-├── requirements.txt
-├── LICENSE
-└── CITATION.cff
+|-- README.md
+|-- figures/
+|   |-- main/
+|   |-- supplementary/
+|   `-- extended/
+|-- animations/
+|-- scripts/
+|-- notebooks/
+|-- data/
+|-- results/
+|   `-- tables/
+|-- docs/
+|-- environment.yml
+|-- requirements.txt
+|-- LICENSE
+|-- CITATION.cff
+`-- MANIFEST.json
 ```
 
 ### Folder Description
 
-| Folder                   | Description                                                                                         |
-| ------------------------ | --------------------------------------------------------------------------------------------------- |
-| `figures/`               | Figures associated with the paper, including supplementary and extended versions.                   |
-| `figures/main/`          | Final figures appearing in the main manuscript.                                                     |
-| `figures/supplementary/` | Figures included as supplementary material.                                                         |
-| `figures/extended/`      | Additional figures not included in the final manuscript but useful for interpretation.              |
-| `animations/`            | Videos, GIFs, or animations illustrating temporal evolution, parameter effects, or model behaviour. |
-| `scripts/`               | Source code used to process data, run calculations, or generate figures.                            |
-| `notebooks/`             | Jupyter notebooks for exploratory analysis or figure generation.                                    |
-| `data/`                  | Input data, processed datasets, or references to external datasets.                                 |
-| `results/`               | Numerical outputs, processed results, or intermediate files.                                        |
-| `docs/`                  | Additional documentation, notes, or technical explanations.                                         |
+| Folder | Description |
+| --- | --- |
+| `figures/main/` | Final figure files used in the manuscript. |
+| `figures/supplementary/` | Auxiliary diagnostics generated by the benchmark pipeline. |
+| `figures/extended/` | Additional high-level explanatory figures not included in the manuscript. |
+| `animations/` | GIF animations showing body-frame forcing, tensor orientation, and modal response. |
+| `scripts/` | Current Python scripts and input definitions. |
+| `notebooks/` | Placeholder for future exploratory notebooks. |
+| `data/` | CSV outputs from the benchmark calculations. |
+| `results/` | Summary JSON, provenance files, and table outputs. |
+| `docs/` | Figure index, data inventory, and release notes. |
 
 ---
 
-## Figures
+## Figures In The Paper
 
-This section lists the figures available in the repository.
+| Figure | File | Description | Related section |
+| --- | --- | --- | --- |
+| Figure 1a | `figures/main/figure_01a_coefficient_evolution.png` | Assembled nondimensional coefficient magnitudes through the signed encounter coordinate. | Nondimensional hierarchy |
+| Figure 1b | `figures/main/figure_01b_nondimensional_hierarchy.png` | Periapsis ordering of elastic, tidal, centrifugal, self-gravity, inertial, and Coriolis terms. | Nondimensional hierarchy |
+| Figure 2 | `figures/main/figure_02_periapsis_time_anomaly.png` | Periapsis-centered time-anomaly check used in the tidal-tensor construction. | Trajectory reconstruction |
+| Figure 3a | `figures/main/figure_03a_rotation_frame_components.png` | Earth direction components in the rotating benchmark frame. | Body-frame forcing |
+| Figure 3b | `figures/main/figure_03b_tidal_tensor_components.png` | Independent components of the trace-free body-frame tidal tensor. | Body-frame forcing |
+| Figure 4 | `figures/main/figure_04_modal_diagnostics_periapsis.png` | Nominal quadrupolar benchmark over the periapsis window. | Quadrupolar modal benchmark |
+| Figure 5 | `figures/main/figure_05_modal_diagnostics_extended.png` | Nominal quadrupolar diagnostics over the extended encounter interval. | Quadrupolar modal benchmark |
+| Figure 6 | `figures/main/figure_06_regime_maps.png` | Encounter-speed/periapsis and stiffness/periapsis regime maps. | Apophis benchmark cases |
 
-| Figure                  | File                                  | Description                                  | Related paper section  |
-| ----------------------- | ------------------------------------- | -------------------------------------------- | ---------------------- |
-| Figure 1                | `figures/main/figure_01.png`          | Short description of the figure.             | Section X              |
-| Figure 2                | `figures/main/figure_02.png`          | Short description of the figure.             | Section X              |
-| Supplementary Figure S1 | `figures/supplementary/figure_S1.png` | Short description.                           | Supplementary Material |
-| Extended Figure E1      | `figures/extended/figure_E1.png`      | Additional diagnostic or explanatory figure. | Additional analysis    |
+## Supplementary Figures
 
-Recommended naming convention:
+| Figure | File | Description | Related section |
+| --- | --- | --- | --- |
+| Supplementary Figure S1 | `figures/supplementary/figure_S1_trajectory_frames.png` | Hyperbolic trajectory in inertial and asteroid-centered frames. | Trajectory reconstruction |
+| Supplementary Figure S2 | `figures/supplementary/figure_S2_body_frame_forcing_compact.png` | Compact body-frame forcing diagnostic. | Body-frame forcing |
+| Supplementary Figure S3 | `figures/supplementary/figure_S3_coefficient_bars.png` | Periapsis coefficient bars used to audit the nondimensional ordering. | Nondimensional hierarchy |
+| Supplementary Figure S4 | `figures/supplementary/figure_S4_encounter_regime_map.png` | Encounter-speed/periapsis regime map. | Benchmark extension cases |
+| Supplementary Figure S5 | `figures/supplementary/figure_S5_stiffness_periapsis_regime_map.png` | Stiffness/periapsis regime map. | Benchmark extension cases |
+| Supplementary Figure S6 | `figures/supplementary/figure_S6_modal_diagnostics_compact.png` | Compact nominal modal diagnostic with forcing, displacement, amplitude, and energy. | Quadrupolar modal benchmark |
 
-```text
-figure_01_short-description.png
-figure_02_short-description.pdf
-figure_S1_short-description.png
-figure_E1_short-description.png
-```
+## Extended Figures
 
-For publication-quality material, vector formats such as `.pdf`, `.svg`, or `.eps` are recommended when possible.
+| Figure | File | Description | Related section |
+| --- | --- | --- | --- |
+| Extended Figure E1 | `figures/extended/figure_E1_tidal_quadrupole_field_2d.png` | Two-dimensional visualization of the quadrupolar tidal field. | Quadrupolar tide |
+| Extended Figure E2 | `figures/extended/figure_E2_zeta_regime_map.png` | Standalone zeta regime map retained from the extended figure set. | Benchmark extension cases |
+| Extended Figure E3 | `figures/extended/figure_E3_max_quadrupole_amplitude_map.png` | Map of maximum quadrupolar amplitude over the extension parameter space. | Benchmark extension cases |
+| Extended Figure E4 | `figures/extended/figure_E4_coefficients_trajectory_extended.png` | Extended coefficient history along the trajectory. | Nondimensional hierarchy |
+| Extended Figure E5 | `figures/extended/figure_E5_quadrupole_mode_gallery.png` | Gallery of real l=2 deformation patterns and the tide-aligned quadrupole. | Quadrupolar modal interpretation |
+| Extended Figure E6 | `figures/extended/figure_E6_tidal_tensor_eigenstructure.png` | Tensor matrix, component histories, eigenvalues, and trace-free validation. | Tidal-tensor diagnostics |
+| Extended Figure E7 | `figures/extended/figure_E7_response_scaling.png` | Peak response, zeta, and quasi-static agreement for stiffness and factorial cases. | Benchmark extension cases |
+| Extended Figure E8 | `figures/extended/figure_E8_body_frame_tidal_geometry.png` | Direction cosines, tensor intensity, and principal-axis evolution. | Body-frame forcing geometry |
 
 ---
 
 ## Animations
 
-This section lists the animations or videos included in the repository.
+| Animation | File | Description | Format |
+| --- | --- | --- | --- |
+| Animation 1 | `animations/animation_01_body_frame_direction.gif` | Evolution of the Earth direction vector in the rotating benchmark frame. | GIF |
+| Animation 2 | `animations/animation_02_quadrupole_forcing_response.gif` | Synchronized marker over tidal forcing, dynamic response, and quasi-static response. | GIF |
+| Animation 3 | `animations/animation_03_tidal_tensor_principal_axes.gif` | Animated principal stretching and compression axes of the body-frame tidal tensor. | GIF |
+| Animation 4 | `animations/animation_04_apophis_flyby_trajectory.gif` | Earth-centered flyby of Apophis synchronized with the tidal-intensity history. | GIF |
+| Animation 5 | `animations/animation_05_body_frame_tidal_field.gif` | Rotating-frame quadrupolar tidal field across the asteroid cross-section. | GIF |
+| Animation 6 | `animations/animation_06_amplified_quadrupole_surface.gif` | Amplified quadrupolar surface deformation driven by the benchmark tidal response. | GIF |
 
-| Animation   | File                          | Description                         | Format |
-| ----------- | ----------------------------- | ----------------------------------- | ------ |
-| Animation 1 | `animations/animation_01.gif` | Short description of what is shown. | GIF    |
-| Animation 2 | `animations/animation_02.mp4` | Short description of what is shown. | MP4    |
-
-Recommended naming convention:
-
-```text
-animation_01_short-description.gif
-animation_02_short-description.mp4
-```
-
-Each animation should include a brief explanation of:
-
-* What physical, numerical, or conceptual process is represented.
-* Which variables are shown.
-* The meaning of the colour scale, if applicable.
-* The parameter values or simulation case used.
-* The corresponding figure, section, or result in the paper.
+Each animation is generated from the benchmark CSV outputs and is intended for
+interpretation and presentation. The numerical CSV files remain the reference
+material for quantitative comparison.
 
 ---
 
 ## Code
 
-The repository may include scripts and notebooks used for post-processing, figure generation, or additional analysis.
+The recommended one-command workflow is:
 
-### Requirements
+```bash
+python scripts/reproduce_all.py
+```
 
-The code was developed using:
+This regenerates the benchmark calculations, data files, paper figures,
+extended figures, animations, documentation indexes, image checks, and
+manifests from the repository-local source files.
 
-* Python: `X.Y`
-* NumPy: `X.Y`
-* SciPy: `X.Y`
-* Matplotlib: `X.Y`
-* Pandas: `X.Y`
-* Other relevant packages: `TBD`
+The included scripts are:
 
-Install dependencies with:
+- `scripts/inputs.py`: canonical physical, encounter, numerical, and sweep inputs.
+- `scripts/run_benchmark.py`: current benchmark generation workflow.
+- `scripts/prepare_github_release.py`: provenance copy of the packaging utility used to build this folder.
+- `scripts/reproduce_all.py`: unified reproducibility entry point for this GitHub repository.
+
+The code was developed with Python 3.12 and uses NumPy, Pandas, Matplotlib, and
+Pillow. Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-or, if using Conda:
+Run the complete repository reproduction from the repository root with:
 
 ```bash
-conda env create -f environment.yml
-conda activate environment-name
-```
-
-### Running the Code
-
-Example command:
-
-```bash
-python scripts/generate_figure_01.py
-```
-
-Expected output:
-
-```text
-figures/main/figure_01.png
-```
-
-If notebooks are provided, they can be launched with:
-
-```bash
-jupyter notebook
-```
-
-or:
-
-```bash
-jupyter lab
+python scripts/reproduce_all.py
 ```
 
 ---
 
 ## Data
 
-Describe the data included in the repository.
+| Dataset | Location | Description | Source |
+| --- | --- | --- | --- |
+| Trajectory histories | `data/trajectory_*.csv` | Hyperbolic trajectory and body-frame direction/tensor quantities. | Generated by `run_benchmark.py` |
+| Modal histories | `data/modal_response_*.csv` | Dimensional quadrupolar response, quasi-static output, amplitudes, and energy. | Generated by `run_benchmark.py` |
+| Nondimensional coefficients | `data/nondimensional_coefficients_*.csv` | Coefficient hierarchy along the full and periapsis windows. | Generated by `run_benchmark.py` |
+| Regime maps | `data/*regime_map.csv` | Encounter and stiffness grids for zeta-classification plots. | Generated by `run_benchmark.py` |
+| Tables | `results/tables/` | Input, derived, validation, stiffness, and parametric tables. | Generated by `run_benchmark.py` |
+| Summary and provenance | `results/*.json`, `MANIFEST.json` | Benchmark summary and SHA-256 file inventory. | Generated locally |
 
-| Dataset   | Location             | Description                         | Source                     |
-| --------- | -------------------- | ----------------------------------- | -------------------------- |
-| Dataset 1 | `data/raw/...`       | Raw input data.                     | Original / External source |
-| Dataset 2 | `data/processed/...` | Processed data used for figures.    | Generated from scripts     |
-| Dataset 3 | `results/...`        | Numerical results from simulations. | Generated internally       |
-
-If the data are too large to be hosted directly on GitHub, provide the external location here:
-
-* Data repository: `TBD`
-* DOI: `TBD`
-* Access conditions: Public / Restricted / Available upon request
+Some CSV files are large because they preserve dense histories for verification.
+For a journal archive, they can also be mirrored to Zenodo or Git LFS.
 
 ---
 
 ## Reproducibility
 
-To reproduce the main figures:
+To reproduce the current benchmark outputs:
 
-1. Install the required dependencies.
-2. Download or generate the required data.
-3. Run the scripts in `scripts/`.
-4. Generated figures will be saved in `figures/` or `results/`.
+1. Install the dependencies.
+2. Run `python scripts/reproduce_all.py`.
+3. Compare generated files against `MANIFEST.json` or `results/manifest.json`.
 
-Example workflow:
-
-```bash
-python scripts/preprocess_data.py
-python scripts/generate_results.py
-python scripts/generate_figures.py
-```
-
-For full reproducibility, document:
-
-* Software versions.
-* Input data.
-* Random seeds, if applicable.
-* Parameter values.
-* Hardware requirements, if relevant.
-* Any non-public data dependencies.
+The benchmark summary reports a peak dynamic quadrupolar displacement of
+`8.176171003423148e-07 m` for the nominal Apophis reference case, with all
+recorded validation checks passing in the packaged run.
 
 ---
 
 ## Versioning
 
-Recommended version tags:
+| Repository version | Paper status | Description |
+| --- | --- | --- |
+| `v0.1` | Draft | Initial GitHub-ready supplementary structure. |
+| `v1.0` | Submitted | Version associated with manuscript submission. |
+| `v1.1` | Revised | Updated version after peer review. |
+| `v2.0` | Published | Final version associated with the published paper. |
 
-| Repository version | Paper status | Description                                        |
-| ------------------ | ------------ | -------------------------------------------------- |
-| `v0.1`             | Draft        | Initial repository structure.                      |
-| `v1.0`             | Submitted    | Version associated with manuscript submission.     |
-| `v1.1`             | Revised      | Updated version after peer review.                 |
-| `v2.0`             | Published    | Final version associated with the published paper. |
-
-The repository version associated with the published paper should be archived using Zenodo or a similar service to obtain a permanent DOI.
-
----
-
-## How to Cite
-
-If you use this repository, please cite the associated paper:
-
-```bibtex
-@article{AuthorYearPaper,
-  title   = {Full Paper Title},
-  author  = {Author, A. and Author, B. and Author, C.},
-  journal = {Journal Name},
-  year    = {YYYY},
-  doi     = {DOI}
-}
-```
-
-If citing the repository directly:
-
-```bibtex
-@misc{AuthorYearRepository,
-  author       = {Author, A. and Author, B. and Author, C.},
-  title        = {Repository Title},
-  year         = {YYYY},
-  publisher    = {GitHub},
-  version      = {vX.Y},
-  doi          = {Repository DOI},
-  url          = {Repository URL}
-}
-```
-
----
-
-## Contact
-
-For questions, comments, or requests, please contact:
-
-**Corresponding author:**
-Name Surname
-Institution
-Email: `name@email.com`
-
-Additional contacts:
-
-* Author 2: `email@example.com`
-* Author 3: `email@example.com`
+The published repository version should be archived with Zenodo or an equivalent
+service to obtain a permanent DOI.
 
 ---
 
 ## License
 
-Specify the license for the repository.
+Code in this repository is released under the MIT License. Figures,
+documentation, animations, and supplementary material are released under the
+Creative Commons Attribution 4.0 International License unless otherwise stated.
+Data tables are released under CC BY 4.0 unless a future publication record
+specifies a different data license.
 
-Recommended options:
-
-* **Code:** MIT License / BSD-3-Clause / GPL-3.0
-* **Figures and text:** Creative Commons Attribution 4.0 International, CC BY 4.0
-* **Data:** CC BY 4.0 / CC0 / Custom license
-
-Example:
-
-```text
-Code in this repository is released under the MIT License.
-Figures, documentation, and supplementary material are released under the CC BY 4.0 License unless otherwise stated.
-```
-
-See the `LICENSE` file for details.
-
----
-
-## Notes
-
-* Some figures may differ slightly from the final published version due to journal formatting or post-processing.
-* Large files may be stored externally and linked from this repository.
-* Files marked as `draft`, `old`, or `deprecated` should not be used for citation or reproduction unless explicitly stated.
-* The DOI and citation information will be updated after publication.
-
+See `LICENSE` for details.
